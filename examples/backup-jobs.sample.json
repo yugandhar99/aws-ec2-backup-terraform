@@ -1,0 +1,16 @@
+{
+  "BackupJobs": [
+    {
+      "BackupJobId": "sample-success-job",
+      "ResourceArn": "arn:aws:ec2:us-west-2:111122223333:instance/i-0123456789abcdef0",
+      "ResourceType": "EC2",
+      "State": "COMPLETED"
+    },
+    {
+      "BackupJobId": "sample-failed-job",
+      "ResourceArn": "arn:aws:ec2:us-west-2:111122223333:instance/i-0fedcba9876543210",
+      "ResourceType": "EC2",
+      "State": "FAILED"
+    }
+  ]
+}

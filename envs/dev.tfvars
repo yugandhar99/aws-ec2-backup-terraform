@@ -1,0 +1,12 @@
+project_name                 = "aws-ec2-backup-terraform"
+environment                  = "dev"
+owner                        = "yugandhar"
+aws_region                   = "us-west-2"
+dr_region                    = "us-east-1"
+backup_schedule              = "cron(0 2 * * ? *)"
+retention_days               = 14
+enable_sns_notifications     = true
+notification_email           = ""
+create_example_ec2_instances = false
+enable_cross_region_copy     = false
+enable_vault_lock            = false
