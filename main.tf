@@ -9,7 +9,6 @@ data "aws_vpc" "default" {
   default = true
 }
 
-
 data "aws_subnets" "default" {
   count = var.create_example_ec2_instances ? 1 : 0
 
