@@ -12,7 +12,6 @@ locals {
     "arn:aws:ec2:*:*:instance/*"
   ]
 
-
   example_instances = {
     backup-a = "daily-backup"
     backup-b = "daily-backup"
