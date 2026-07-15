@@ -10,3 +10,4 @@ notification_email           = ""
 create_example_ec2_instances = false
 enable_cross_region_copy     = false
 enable_vault_lock            = false
+
