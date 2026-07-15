@@ -9,6 +9,7 @@ variable "project_name" {
   }
 }
 
+
 variable "owner" {
   description = "Owner tag value for cost allocation and accountability."
   type        = string
