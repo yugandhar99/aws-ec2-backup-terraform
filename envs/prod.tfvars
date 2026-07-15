@@ -12,3 +12,4 @@ create_example_ec2_instances = false
 enable_cross_region_copy     = true
 cross_region_retention_days  = 90
 enable_vault_lock            = false
+
