@@ -1,4 +1,4 @@
-variable "project_name" {
+variable "project_name" { 
   description = "Project name used for resource naming and tagging."
   type        = string
   default     = "aws-ec2-backup-terraform"
