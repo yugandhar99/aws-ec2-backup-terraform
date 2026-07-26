@@ -4,7 +4,7 @@
 # These resources are disabled by default to avoid accidental AWS charges.
 # Enable create_example_ec2_instances=true only in a sandbox account.
 
-data "aws_vpc" "d efault" {
+data "aws_vpc" "default" {
   count   = var.create_example_ec2_instances ? 1 : 0
   default = true
 }
