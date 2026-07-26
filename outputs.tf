@@ -1,4 +1,4 @@
-output "backup_plan_id" { 
+output "backup_plan_id" {
   description = "ID of the AWS Backup plan."
   value       = aws_backup_plan.main.id
 }
