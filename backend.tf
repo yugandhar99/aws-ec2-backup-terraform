@@ -1,4 +1,4 @@
-# Optional remote backend example.  
+# Optional remote backend example. 
 # For real team usage, create an S3 bucket and DynamoDB lock table first, then uncomment and update values.
 
 # terraform {
