@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# Optional demo EC2 instances
+# Optional demo EC2 instances 
 # -----------------------------------------------------------------------------
 # These resources are disabled by default to avoid accidental AWS charges.
 # Enable create_example_ec2_instances=true only in a sandbox account.
