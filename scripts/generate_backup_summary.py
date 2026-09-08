@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate an operations-friendly AWS Backup summary from backup job JSON.
+Generate an operations-friendly AWS Backup summary from backup job JSON. 
 
 Offline mode:
   aws backup list-backup-jobs --by-backup-vault-name <vault> > reports/backup-jobs.json
