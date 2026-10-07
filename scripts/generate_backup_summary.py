@@ -4,7 +4,7 @@ Generate an operations-friendly AWS Backup summary from backup job JSON.
 
 Offline mode:
   aws backup list-backup-jobs --by-backup-vault-name <vault> > reports/backup-jobs.json
-  python scripts/generate_backup_summary.py --input reports/backup-jobs.json
+  python scripts/generate_backup_summary.py --input reports/backup-jobs.json 
 
 Optional Bedrock mode:
   python scripts/generate_backup_summary.py --input reports/backup-jobs.json --bedrock
